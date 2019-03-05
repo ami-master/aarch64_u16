@@ -29,8 +29,7 @@ build:
     - jq --version
     - kubectl version --client #1.13.2
     - docker --version
-    - pip show azure 
-    - az --version #3.0.0
+    - pip show azure #3.0.0
     - docker pull shippabledocker/sample_node_pvt:master
    # - EXPECTED_DOCKER_VERSION="18.03.1-ce"
    # - |
